@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Carousel } from 'react-bootstrap';
+import SearchForm from './components/SearchForm';
 
 class App extends Component {
   render() {
@@ -9,6 +10,8 @@ class App extends Component {
           <Container>
             <h1>Search App</h1>
             <p>This is a simple search app</p>
+
+            <SearchForm />
           </Container>
         </Carousel>
       </div>
